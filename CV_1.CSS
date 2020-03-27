@@ -1,0 +1,252 @@
+
+
+.headerleft
+{
+    text-align: left;
+    background-color: lightgray;
+    padding : 0.5%;
+    margin: 1%;
+    width: 10%;
+    float: left;
+    background: linear-gradient(-45deg,whitesmoke ,lightgray , grey);
+}
+
+.headerleft p{
+    font-size: 15px;
+    font-family:inherit;
+
+}
+
+.headerright{
+    width: 60%;
+    text-align: center;
+     padding : 0.5%;
+    margin: 1%;
+    float: left;
+    font-size: 25px;
+   
+}
+
+.headerright p{
+    font-size: 30px;
+}
+
+.extra head
+{
+    width: 20%;
+    float:left;
+}
+
+.heada:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.buttonhead{
+    padding: 1%;
+    margin-top: 4%;
+    background-color: lightslategray;
+    border-radius: 20%;
+    float: left;
+}
+
+.buttonhead a{
+     color: white;
+    padding; 10px 12px;
+     font-size: 20px;
+    text-decoration: none;
+    border-radius: 5%;
+}
+.buttonhead a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.menutop{
+    background-color: lightgray;
+    padding: 1%;
+    overflow: hidden;
+    
+}
+
+.menutop a{
+    font-family: inherit;
+    font-size: 20px;
+    padding: 14px 16px; 
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    float: left;
+    display: block;
+}
+
+.menutop a:hover{
+    background-color: darkgray;
+    color: whitesmoke;
+}
+
+.footer{
+    background-color: darkgrey;
+    padding: 1%;
+    overflow: hidden;
+    
+}
+
+.footer a{
+    font-family: inherit;
+    font-size: 20px;
+    padding: 14px 16px; 
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    float: left;
+    display: block;
+}
+
+.footer a:hover{
+    background-color: whitesmoke;
+}
+
+.leftcolumn {
+    float: left;
+    width: 35%;
+
+}
+
+.leftcolumn li{
+    font-size: 18px;
+    padding: 1%;
+}
+
+.rightcolumn{
+    width: 35%;
+    float: left;
+}
+
+.rightcolumn li{
+    font-size: 18px;
+    padding: 1%;
+}
+
+.rightrightcolumn{
+    width: 15%;
+    float: left; 
+    padding: 1%;
+ 
+}
+
+.rightrightcolumn li{
+    font-size: 18px;
+    padding: 1%;
+}
+
+.righttop{
+    background: linear-gradient(-45deg,whitesmoke ,lightgray , grey); 
+    margin: 2%;
+    width:100%;
+
+}
+
+.rightbelow{
+     background: linear-gradient(-45deg,whitesmoke ,lightsteelblue , whitesmoke);
+    margin: 2%;
+    width:100%;
+    
+}
+
+
+.image{
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+
+.row1 
+{
+    margin: 1%;
+    font-size: 15px;
+    width: 100%;
+}
+
+.row1 p
+{
+   padding: 1%;
+}
+
+
+.rowtext
+{
+    width: 30%;
+    float:left;
+}
+
+.rowimg
+{
+    height:auto;
+    width: 70%;
+    float:left;
+
+}
+
+.rowimg:hover .image {
+ background-color: lightgray;
+}
+
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn 
+    {   
+    width: 100%;
+    padding: 0;
+    height: auto;
+    }
+    .rightrightcolumn
+    {   
+    width: 100%;
+    margin: 1%;
+    padding: 0%;
+    }
+    .headerleft, .headerright .extrahead
+    {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    .headerright p
+    {
+    font-size: 20px;
+}
+    .rowtext, .rowimg{
+        float:none;
+        width: 100%;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 510px) {
+  .menutop a {
+    float:none;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 10% 50%
+	}
+	50% {
+		background-position: 100% 55%
+	}
+	100% {
+		background-position: 100% 100%
+	}
+}
