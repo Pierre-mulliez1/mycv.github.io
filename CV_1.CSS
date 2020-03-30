@@ -172,6 +172,7 @@
     font-size: 15px;
     display: table;
     width: 100%;
+    height: auto;
 }
 
 .row1 p
@@ -232,7 +233,11 @@
 }
 
 @media screen and (max-width: 510px) {
-  .menutop a {
+    .menutop{
+        margin-bottom: 3%;
+    }
+    
+    .menutop a {
     float:none;
     width: 100%;
     font-size: 18px;
@@ -240,19 +245,32 @@
   
 }
 
-@media screen and (max-width: 250px) {
-  .headerright, .extrahead {
-    width: 100%;
-      float: none;
+@media screen and (max-width: 450px) {
+  .headerright {
+      width: 100%;
+      float: center;
       text-align: center;
       align-content: center;
   }
+    .buttonhead{
+       width: 80%;
+      float: center;
+      text-align: center;
+      align-content: center; 
+    margin-left: 10%;
+        margin-bottom: 3%;
+    }
+    
+    .footer a{
+        width: 100%;
+    }
   
 }
 
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
+
+
+[class*="col-"] {
+  width: 100%;
 }
 
 @keyframes Gradient {
