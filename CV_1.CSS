@@ -20,7 +20,7 @@
 .headerright{
     width: 60%;
     text-align: center;
-     padding : 0.5%;
+    padding : 0.5%;
     margin: 1%;
     float: left;
     font-size: 25px;
@@ -170,6 +170,7 @@
 {
     margin: 1%;
     font-size: 15px;
+    display: table;
     width: 100%;
 }
 
@@ -211,7 +212,7 @@
     margin: 1%;
     padding: 0%;
     }
-    .headerleft, .headerright .extrahead
+    .headerleft
     {
         width: 100%;
         padding: 0px;
@@ -239,6 +240,21 @@
   
 }
 
+@media screen and (max-width: 250px) {
+  .headerright, .extrahead {
+    width: 100%;
+      float: none;
+      text-align: center;
+      align-content: center;
+  }
+  
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 @keyframes Gradient {
 	0% {
 		background-position: 10% 50%
@@ -250,3 +266,5 @@
 		background-position: 100% 100%
 	}
 }
+
+
