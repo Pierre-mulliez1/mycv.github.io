@@ -199,6 +199,18 @@
  background-color: lightgray;
 }
 
+.extraimg
+{
+    height:auto;
+    width: 70%;
+    float:left;
+
+}
+
+.extraimg:hover .image {
+ background-color: gray;
+}
+
 
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn 
