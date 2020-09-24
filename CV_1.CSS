@@ -203,15 +203,18 @@
     height:auto;
     width: 70%;
     float:left;
+    margin-top: 3%;
 
 }
 
 .rowimg:hover .image {
  background-color: lightgray;
+    opacity: 0.6;
 }
 
 .extraimg
 {
+    margin-top: 8%;
     height:auto;
     width: 70%;
     float:left;
@@ -220,7 +223,10 @@
 
 .extraimg:hover .image {
  background-color: gray;
+opacity: 0.6;
 }
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -306,6 +312,15 @@
 	100% {
 		background-position: 100% 100%
 	}
+}
+
+.bg_img {
+
+  background-image: url("pictures/education.jpg");
+backdrop-filter: blur(5px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
