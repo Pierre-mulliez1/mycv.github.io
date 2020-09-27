@@ -1,12 +1,11 @@
  <head>
+<a id="ddmenuLink" href="menu.html"></a>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 <link href="CV_1.CSS" rel="stylesheet" >
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-     
 </head> 
 
 <body class = "backclr" style = "font-family: Arial, Helvetica, sans-serif;">
-    
 <div class= "heada">
 <div class = "headerleft" >
 <p>Pierre Mulliez <br> 18-09-1998 <br> --------- Aix en Provence</p>
@@ -22,7 +21,23 @@
         </div>
 </div>
 </div>
-
+   
+    <div class= "heada" style="text-align: center">
+        <div >
+            <button onclick="myFunction()" class = "buttonabout" id = "bton3">Hello and welcome on my CV, about me;  click to see more !</button>
+            
+        </div>
+    </div>
+<script>
+function myFunction() {
+    if (document.getElementById("bton3").innerHTML == "Hello and welcome on my CV, about me;  click to see more !"){
+         document.getElementById("bton3").innerHTML = "Hello and welcome on my CV, about me; I have lived in France (studied in a bilingual school), England, Canada, Mexico and now spain. I am a native French speaker, I speak bilingual English and conversational Spanish. I am proactive, think critically, perseverent and always looking for new challenges.";
+        }
+    else {
+        document.getElementById("bton3").innerHTML = "Hello and welcome on my CV, about me;  click to see more !"
+         }
+}
+</script>
 
 
 <div class = "menutop">

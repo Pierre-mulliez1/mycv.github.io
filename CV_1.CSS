@@ -71,7 +71,22 @@
     border-radius: 20%;
 }
 
+.buttonabout{
+    width: 100%;
+    padding: 2%;
+    border-radius: 10%;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #F7F2E9;
+    border-style: hidden;
+}
 
+.buttonabout:hover{
+    background-color: white;
+    opacity: 30%;
+}
 
 .menutop{
     background-color: #8A736C;
@@ -156,12 +171,12 @@
     background: linear-gradient(-45deg,whitesmoke , #AA5758); 
     width:100%;
     padding: 5%;
-    border-radius: 15%;
-
+    border-radius: 15%; 
 }
 
+
 .rightbelow{
-     background: linear-gradient(-45deg,whitesmoke 80%,#AA5758 );
+     background: linear-gradient(-45deg,whitesmoke 20%,#AA5758 );
     margin: 4%;
     width:100%;
     padding: 5%;
@@ -322,5 +337,7 @@ backdrop-filter: blur(5px);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 

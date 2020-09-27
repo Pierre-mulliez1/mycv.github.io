@@ -22,7 +22,22 @@
         </div>
 </div>
 </div>
-
+    <div class= "heada" style="text-align: center">
+        <div >
+            <button onclick="myFunction()" class = "buttonabout" id = "bton2">Bonjour bienvenue sur mon CV en ligne, cliquez pour en savoir plus!</button>
+            
+        </div>
+    </div>
+<script>
+function myFunction() {
+    if (document.getElementById("bton2").innerHTML == "Bonjour bienvenue sur mon CV en ligne, cliquez pour en savoir plus!"){
+         document.getElementById("bton2").innerHTML = "Bonjour bienvenue sur mon CV en ligne; J'ai vécu en France (étude dans une école billingue), Angleterre, Canada, Méxique et maintenant en Espagne. Le français est ma langue maternelle, je parle également anglais courament et Espagnole intermédiaire. Je me considère comme proactif, perseverant, esprit critique et toujours à la recherche de nouveaux défis.";
+        }
+    else {
+        document.getElementById("bton2").innerHTML = "Bonjour bienvenue sur mon CV en ligne, cliquez pour en savoir plus!"
+         }
+}
+</script>
 
 
 <div class = "menutop">
