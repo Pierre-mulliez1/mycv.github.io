@@ -260,9 +260,11 @@ opacity: 0.6;
     .headerleft
     {
         width: 100%;
-        padding: 0px;
+        padding: 0%;
         text-align: center;
     }
+    
+    
     .headerright p
     {
     font-size: 20px;
