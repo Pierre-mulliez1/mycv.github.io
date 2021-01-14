@@ -340,6 +340,15 @@ backdrop-filter: blur(5px);
   background-size: cover;
 }
 
+.bg_img2 {
+
+    background-image: url("pictures/work.jpg");
+  backdrop-filter: blur(5px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .imgme{
   background-position: center;
   background-repeat: no-repeat;
