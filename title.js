@@ -11,7 +11,7 @@ document.write(`
 
 <div class= "heada">
 <div class = "headerleft" style = "padding-right:3%;" >
-<p>Pierre Mulliez <br> 18-09-1998 <br> pierremulliez1@gmail.com</p>
+<p>Pierre Mulliez <br> pierremulliez1@gmail.com<br> driving license </p>
 </div>
 <div class = "headerright">
 <p>My Online Curiculum Vitae</p>

@@ -1,6 +1,6 @@
 function details() {
     if (document.getElementById("bton2").innerHTML == "Bonjour bienvenue sur mon CV en ligne, cliquez pour en savoir plus!"){
-         document.getElementById("bton2").innerHTML = "Bonjour bienvenue sur mon CV en ligne; J'ai vécu en France (étude dans une école billingue), Angleterre, Canada, Méxique et maintenant en Espagne. Le français est ma langue maternelle, je parle également anglais courament et Espagnole intermédiaire. Je me considère comme proactif, persévérant, ésprit critique et toujours à la recherche de nouveaux défis.";
+         document.getElementById("bton2").innerHTML = "Bonjour bienvenue sur mon CV en ligne; J'ai vécu en France (étude dans une école billingue), Angleterre, Canada, Méxique et maintenant en Espagne. Le français est ma langue maternelle, je parle également anglais courament et Espagnole avancé. Je me considère comme proactif, persévérant, ésprit critique et toujours à la recherche de nouveaux défis.";
         }
     else {
         document.getElementById("bton2").innerHTML = "Bonjour bienvenue sur mon CV en ligne, cliquez pour en savoir plus!"
@@ -11,7 +11,7 @@ document.write(`
 
 <div class= "heada">
 <div class = "headerleft" style = "padding-right:3%;"  >
-<p>Pierre Mulliez <br> 18-09-1998 <br> pierremulliez1@gmail.com </p>
+<p>Pierre Mulliez <br> 18-09-1998 <br> pierremulliez1@gmail.com <br> permit de conduire </p>
 </div>
 
 <div class = "headerright">
