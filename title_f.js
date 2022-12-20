@@ -20,14 +20,13 @@ document.write(`
 
 <div class= "extrahead">
     <div class= "buttonhead">
-<a  href= "index.html">English version</a>
+<a  href= "index.html">English version <p style='font-size: 12px'>Last updated: December 2022</p></a>
         </div>
 </div>
 </div>
     <div class= "heada" style="text-align: center">
         <div >
             <button onclick="details()" class = "buttonabout" id = "bton2">Bonjour bienvenue sur mon CV en ligne, cliquez pour en savoir plus!</button>
-            
         </div>
     </div>
 
