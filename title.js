@@ -43,7 +43,7 @@ document.write(`
         <a href = "experiences_CV1_html.html"> Experiences </a>
         <a href = "projects.html"> Projects  </a>  
         <a href = "extracuri_CV1_HTML.html"> Leadership - extra curricular  </a>    
-        <a href="https://lumen5.com/user/pierremulliez1/meet-pierre-mulliez-yp3dg/" target="_blank">Introduction in 40 seconds</a>  
+        <a href="https://lumen5.com/user/pierremulliez1/meet-pierre-mulliez-yp3dg/" target="_blank">Introduction in 1 minute </a>  
     </div>
 </div>
 

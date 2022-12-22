@@ -193,6 +193,7 @@ custom design*/
 .image{
     height: auto;
     max-width: 100%;
+    margin:3%;
 }
 
 
@@ -220,9 +221,10 @@ custom design*/
 .rowimg
 {
     height:auto;
-    width: 50%;
+    width: 48%;
     float:left;
     margin-top: 3%;
+    margin-left: 2%;
 }
 
 .rowimg:hover .image {
@@ -240,8 +242,33 @@ custom design*/
 }
 
 .extraimg:hover .image {
- background-color: gray;
-opacity: 0.6;
+    background-color: gray;
+    opacity: 0.6;
+}
+
+.text_container{
+    width:70%;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: #AA5758;
+    margin-left: 2%;
+    padding-left: 1%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+}
+
+.link_redirect{
+    font-size:medium; 
+    padding: 0.5%; 
+    border-style: solid; 
+    margin: 1%;
+    border-color: #AA5758;
+    background-color: #E9E3E3;
+    color: black;
+}
+
+.link_redirect:hover {
+    background-color: #F7F2E9;
 }
 
 /* Adapt to screen sizes -- Beta*/
